@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.M10_timer_life_cycle" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/whiteBackground</item>
+        <item name="colorSecondary">@color/violet</item>
+        <item name="fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="android:textSize">36sp</item>
+        <item name="fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="timerTextStyle">
+        <item name="android:textSize">90sp</item>
+        <item name="fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">?attr/colorPrimary</item>
+        <item name="strokeWidth">3dp</item>
+    </style>
+
+    <style name="Theme.M10_timer_life_cycle" parent="Base.Theme.M10_timer_life_cycle" />
+</resources>
